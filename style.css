@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-cont{
+    width: 30%;
+    background-color: rgb(41, 119, 110);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 20px;
+    border-radius: 10px;
+    gap: 1rem;
+}
+.inner-cont textarea{
+    width: 90%;
+    resize: none;
+    font-size: 1.3rem;
+    height: 100px;
+    padding: 5px;
+}
+textarea:focus{
+    background-color: rgb(217, 212, 214);
+}
+
+.count{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    font-size: 1.2rem;
+}
